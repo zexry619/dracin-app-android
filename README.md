@@ -279,3 +279,13 @@ Backend API: [dracinzek.vercel.app](https://dracinzek.vercel.app)
 [Download Latest Release](https://github.com/zexry619/dracin-app-android/releases/latest) • [Report Bug](https://github.com/zexry619/dracin-app-android/issues) • [Request Feature](https://github.com/zexry619/dracin-app-android/issues)
 
 </div>
+
+---
+
+## 📦 Release History
+
+### [v1.0.19](./releases/v1.0.19/) - 2026-01-06
+- [Download APK](./releases/v1.0.19/dracin-v1.0.19.apk) (25M)
+- [View Changelog](./releases/v1.0.19/CHANGELOG.md)
+
+
