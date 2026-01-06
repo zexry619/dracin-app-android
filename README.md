@@ -1,13 +1,11 @@
-# 📱 Dracin - Drama & Novel Reader App
+# 📱 Dracin - Short Drama Streaming App
 
 <div align="center">
 
-![Dracin Logo](https://via.placeholder.com/150x150/6366f1/ffffff?text=DRACIN)
-
-**Platform Terbaik untuk Membaca Novel dan Menonton Drama Favoritmu**
+**Nonton short drama dari berbagai platform dalam satu aplikasi**
 
 [![Download APK](https://img.shields.io/badge/Download-APK-blue.svg?style=for-the-badge)](https://github.com/zexry619/dracin-app-android/releases/latest)
-[![Latest Version](https://img.shields.io/github/v/release/zexry619/dracin-app-android?style=for-the-badge)](https://github.com/zexry619/dracin-app-android/releases)
+[![Latest Version](https://img.shields.io/badge/version-1.0.19-blue.svg?style=for-the-badge)](https://github.com/zexry619/dracin-app-android/releases)
 [![License](https://img.shields.io/badge/License-Proprietary-red.svg?style=for-the-badge)](LICENSE)
 
 </div>
@@ -16,44 +14,45 @@
 
 ## 📖 Tentang Aplikasi
 
-**Dracin** adalah aplikasi Android yang memungkinkan Anda untuk membaca novel dan menonton drama dengan pengalaman yang lebih baik dan gratis. Aplikasi ini mengintegrasikan konten dari berbagai platform populer seperti DramaBox, ReelShort, dan platform lainnya dalam satu aplikasi yang mudah digunakan.
+**Dracin** adalah aplikasi Android untuk streaming dan download short drama dari berbagai platform populer. Aplikasi ini mengintegrasikan konten dari **DramaBox**, **Melolo**, dan **NetShort** dalam satu interface yang mudah digunakan.
 
 ### ✨ Fitur Utama
 
-#### 📚 **Baca Novel & Drama**
-- Akses ke ribuan novel dan drama dari berbagai genre
-- Baca semua episode/chapter secara gratis
-- Interface yang bersih dan mudah digunakan
-- Mode baca yang nyaman untuk mata
+#### 🎬 **Multi-Platform Support**
+- **DramaBox** - Trending, Latest, VIP, Dubbed Indonesia
+- **Melolo** - Drama series dan trending content
+- **NetShort** - Explore, For You, dan Trending shorts
+- Akses semua platform tanpa perlu install banyak aplikasi
 
-#### 🎬 **Tonton Drama Video**
-- Streaming drama dalam format video (short drama)
-- Kualitas video HD
-- Player built-in dengan kontrol penuh
-- Download video untuk ditonton offline
+#### 📺 **Video Streaming**
+- Video player dengan kontrol kualitas (360p, 480p, 720p, 1080p)
+- Auto quality selection berdasarkan koneksi
+- Subtitle support (jika tersedia)
+- Keep screen awake saat menonton
+- Continue watching dari terakhir ditonton
 
-#### 🔍 **Pencarian & Eksplorasi**
-- Cari konten berdasarkan judul, genre, atau keyword
-- Rekomendasi konten populer (Hot/Trending)
-- Latest releases - selalu update dengan konten terbaru
-- Filter berdasarkan kategori (VIP, Dubbed, dll)
+#### 💾 **Download & Offline**
+- Download episode untuk ditonton offline
+- Batch download (dalam pengembangan)
+- Manajemen storage dengan info penggunaan
+- Background download dengan notifikasi progress
 
-#### ⭐ **Library & Bookmark**
-- Simpan konten favorit ke library pribadi
-- Bookmark chapter/episode terakhir yang dibaca/ditonton
-- History untuk melacak konten yang pernah dibuka
-- Sinkronisasi progress membaca
+#### 🔍 **Browse & Discovery**
+- Search across semua platform
+- Trending & Latest updates
+- Filter by category (VIP, Dubbed, dll)
+- Random drama suggestion
 
-#### 🎨 **Pengalaman Pengguna**
-- Dark mode & light mode support
-- Customizable reading settings (font, ukuran, spacing)
-- Smooth scrolling dan navigation
-- Offline reading untuk konten yang sudah di-download
+#### ⭐ **Library Management**
+- Favorites - simpan drama favorit
+- Watch History - track progress menonton
+- Continue Watching - lanjutkan dari episode terakhir
+- Library untuk koleksi pribadi
 
-#### 🔔 **Notifikasi**
-- Notifikasi untuk episode/chapter baru
-- Update berkala untuk konten favorit
-- Pengingat untuk melanjutkan membaca
+#### � **Auto Update**
+- Cek update otomatis dari GitHub Releases
+- In-app update notification
+- Version comparison dan changelog
 
 ---
 
@@ -61,133 +60,191 @@
 
 ### Download APK Terbaru
 
-Klik tombol di bawah untuk download versi terbaru:
-
 <div align="center">
 
-### [📥 Download Latest APK](https://github.com/zexry619/dracin-app-android/releases/latest/download/dracin-latest.apk)
+### [📥 Download Latest Release](https://github.com/zexry619/dracin-app-android/releases/latest)
+
+**Current Version: 1.0.19**
 
 </div>
-
-atau lihat [semua versi rilis](https://github.com/zexry619/dracin-app-android/releases)
 
 ### Cara Instalasi
 
 1. **Download APK** dari link di atas
-2. **Enable Unknown Sources** di pengaturan Android Anda:
+2. **Enable Unknown Sources**:
    - Buka `Settings` → `Security` → Enable `Unknown Sources` atau `Install Unknown Apps`
-3. **Buka file APK** yang sudah di-download
-4. **Tap Install** dan tunggu hingga selesai
-5. **Buka aplikasi** dan mulai menikmati konten!
+3. **Install APK** yang sudah di-download
+4. **Buka aplikasi** dan mulai streaming! 🎬
 
-> ⚠️ **Catatan**: Aplikasi ini tidak tersedia di Google Play Store. Download hanya melalui GitHub Releases resmi.
+> ⚠️ **Note**: Aplikasi ini tidak tersedia di Google Play Store karena merupakan third-party client.
+
+### System Requirements
+
+- Android 5.0 (Lollipop) atau lebih tinggi
+- Minimum 100MB storage untuk aplikasi
+- Koneksi internet untuk streaming
+- Storage tambahan jika ingin download offline
 
 ---
 
-## 🛠️ Teknologi & Arsitektur
+## 🛠️ Tech Stack
 
-### Tech Stack
+Aplikasi ini dibangun dengan teknologi modern:
 
-- **Framework**: Flutter 3.x
-- **Language**: Dart
-- **State Management**: Provider / Riverpod / Bloc (sesuai implementasi)
-- **Database**: SQLite / Hive untuk local storage
-- **Networking**: Dio / http untuk API requests
-- **Video Player**: video_player / better_player
-- **UI Components**: Material Design 3
+### Core Framework
+- **Flutter 3.4+** - Cross-platform framework
+- **Dart 3.4+** - Programming language
+- **Riverpod 2.5** - State management
 
-### Arsitektur Aplikasi
+### Key Dependencies
+- **dio 5.4** - HTTP client untuk API calls
+- **go_router 14.0** - Declarative routing
+- **chewie 1.8** - Video player wrapper
+- **video_player 2.8** - Video playback engine
+- **hive 2.2** - Local NoSQL database untuk downloads
+- **cached_network_image 3.3** - Image caching
+- **google_fonts 6.2** - Custom typography
+- **flutter_local_notifications 17.0** - Download notifications
+- **wakelock_plus 1.2** - Keep screen on during playback
+
+### Backend
+- **Next.js API** (`https://dracinzek.vercel.app/api`) - Custom backend proxy untuk:
+  - DramaBox API integration
+  - Melolo API integration  
+  - NetShort API integration
+  - Video URL processing
+  - CORS handling
+
+---
+
+## 🏗️ Arsitektur
+
+Aplikasi menggunakan **Clean Architecture** dengan layer separation:
 
 ```
-┌─────────────────────────────────────────┐
-│         Presentation Layer              │
-│  (UI Screens, Widgets, Pages)           │
-└──────────────┬──────────────────────────┘
-               │
-┌──────────────▼──────────────────────────┐
-│         Application Layer               │
-│  (State Management, BLoC/Provider)      │
-└──────────────┬──────────────────────────┘
-               │
-┌──────────────▼──────────────────────────┐
-│          Domain Layer                   │
-│  (Business Logic, Use Cases, Models)    │
-└──────────────┬──────────────────────────┘
-               │
-┌──────────────▼──────────────────────────┐
-│           Data Layer                    │
-│  (API Services, Local DB, Repositories) │
-└─────────────────────────────────────────┘
+lib/
+├── core/
+│   ├── constants/     # API endpoints & app constants
+│   ├── network/       # Dio client & interceptors
+│   ├── router/        # GoRouter configuration
+│   ├── services/      # Update service, video proxy
+│   ├── theme/         # App theming (dark mode)
+│   └── widgets/       # Reusable widgets
+│
+└── features/
+    ├── home/          # Home screen dengan trending
+    ├── trending/      # Trending dari semua platform
+    ├── category/      # VIP, Dubbed categories
+    ├── search/        # Search & search history
+    ├── drama_detail/  # Detail drama & episode list
+    ├── video_player/  # Video playback & controls
+    ├── downloads/     # Download management
+    ├── favorites/     # Favorite dramas
+    ├── library/       # Personal library
+    ├── history/       # Watch history
+    └── shorts/        # Short-form content
 ```
 
-### Integrasi API
-
-Aplikasi ini terintegrasi dengan:
-- **DramaBox API** - untuk konten drama dan novel
-- **ReelShort API** - untuk short drama series
-- **Custom Backend API** - untuk fitur tambahan dan caching
-
----
-
-## 📋 Roadmap & Fitur Mendatang
-
-- [ ] 🎯 Download batch untuk multiple episodes
-- [ ] 💬 Kolom komentar dan review
-- [ ] 👥 Sistem user profile dan rating
-- [ ] 🌐 Multi-language support (EN, ID, CN)
-- [ ] 📊 Statistik membaca (total waktu, chapter dibaca, dll)
-- [ ] 🎨 Custom themes dan color schemes
-- [ ] 🔄 Cloud sync untuk backup data
-- [ ] 📱 Tablet optimization dan landscape mode
+### State Management Pattern
+- **Riverpod Providers** untuk dependency injection
+- **AsyncNotifier** untuk async state
+- **StateNotifier** untuk local state
+- Repository pattern untuk data layer
 
 ---
 
-## 🔒 Privacy & Security
+## 🎯 Fitur Detail
 
-- ✅ Tidak mengumpulkan data pribadi pengguna
-- ✅ Tidak ada tracking atau analytics pihak ketiga
-- ✅ Data lokal tersimpan aman di perangkat Anda
-- ✅ Koneksi API menggunakan HTTPS
-- ✅ Open source releases untuk transparansi
+### Platform Integration
+
+| Platform | Endpoints | Features |
+|----------|-----------|----------|
+| **DramaBox** | `/dramabox/*` | Trending, Latest, Search, VIP, Dubbed Indonesia, Random |
+| **Melolo** | `/melolo/*` | Trending, Latest, Detail, Stream, Search |
+| **NetShort** | `/netshort/*` | Explore, Trending, For You, Search, Detail |
+
+### Video Quality Options
+- **Auto** - Pilih kualitas otomatis berdasarkan koneksi
+- **1080p** - Full HD (jika tersedia)
+- **720p** - HD
+- **480p** - SD
+- **360p** - Low quality untuk koneksi lambat
+
+### Download System
+- Menggunakan **Hive** untuk local database
+- Support pause/resume downloads
+- Background download dengan notification
+- Storage management dashboard
+- Offline playback dari local storage
 
 ---
 
 ## 📸 Screenshots
 
-<div align="center">
-
-| Home Screen | Library | Reader |
-|-------------|---------|--------|
-| ![Home](https://via.placeholder.com/250x500/6366f1/ffffff?text=Home) | ![Library](https://via.placeholder.com/250x500/8b5cf6/ffffff?text=Library) | ![Reader](https://via.placeholder.com/250x500/a78bfa/ffffff?text=Reader) |
-
-</div>
+> Screenshots akan ditambahkan setelah release
 
 ---
 
 ## ❓ FAQ
 
 ### Apakah aplikasi ini gratis?
-Ya, aplikasi Dracin 100% gratis dan tidak ada biaya berlangganan.
+Ya, 100% gratis tanpa biaya berlangganan.
 
-### Apakah aman untuk digunakan?
-Ya, aplikasi ini aman. Kami tidak mengumpulkan data pribadi dan semua releases di-build secara otomatis melalui GitHub Actions.
+### Apakah aman digunakan?
+Ya, source code di-build otomatis via GitHub Actions. Tidak ada tracking atau data collection.
 
 ### Kenapa tidak ada di Play Store?
-Aplikasi ini bersifat third-party dan mengakses konten dari platform lain, sehingga tidak memenuhi policy Google Play Store.
+Aplikasi ini adalah third-party client yang mengakses konten dari platform lain, tidak sesuai dengan kebijakan Play Store.
 
 ### Bagaimana cara update aplikasi?
-Cek GitHub Releases secara berkala atau aktifkan notifikasi GitHub untuk repository ini.
+Aplikasi akan otomatis cek update dari GitHub Releases dan memberi notifikasi jika ada versi baru.
 
-### Aplikasi crash atau ada bug, bagaimana cara report?
-Silakan buat issue di [GitHub Issues](https://github.com/zexry619/dracin-app-android/issues) dengan detail error dan screenshot.
+### Konten tidak bisa diputar / error streaming?
+- Pastikan koneksi internet stabil
+- Coba ganti quality video ke yang lebih rendah
+- Beberapa konten VIP mungkin tidak bisa diakses
+- Report bug via GitHub Issues jika masalah persisten
+
+### Aplikasi crash atau force close?
+Report bug di [GitHub Issues](https://github.com/zexry619/dracin-app-android/issues) dengan informasi:
+- Android version
+- App version
+- Screenshot error (jika ada)
+- Steps untuk reproduce bug
 
 ---
 
-## 📞 Kontak & Support
+## 🚀 Roadmap
 
-- **Issues**: [GitHub Issues](https://github.com/zexry619/dracin-app-android/issues)
+- [x] ✅ Multi-platform streaming (DramaBox, Melolo, NetShort)
+- [x] ✅ Video quality selection
+- [x] ✅ Download & offline playback
+- [x] ✅ Favorites & watch history
+- [x] ✅ Auto update checker
+- [ ] 🔨 Batch download multiple episodes
+- [ ] 🔨 Subtitle customization (size, position)
+- [ ] 🔨 Picture-in-Picture (PiP) mode
+- [ ] 🔨 Chromecast support
+- [ ] 🔨 User reviews & ratings
+- [ ] 🔨 Cloud sync favorites
+
+---
+
+## � Privacy
+
+- ✅ Tidak ada tracking analytics
+- ✅ Tidak ada pengumpulan data pribadi
+- ✅ Semua data tersimpan lokal di device
+- ✅ Koneksi ke API menggunakan HTTPS
+- ✅ Source build public via GitHub Actions
+
+---
+
+## 📞 Support
+
+- **Bug Reports**: [GitHub Issues](https://github.com/zexry619/dracin-app-android/issues)
+- **Feature Requests**: [GitHub Issues](https://github.com/zexry619/dracin-app-android/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/zexry619/dracin-app-android/discussions)
-- **Email**: support@dracin.app (jika ada)
 
 ---
 
@@ -195,21 +252,29 @@ Silakan buat issue di [GitHub Issues](https://github.com/zexry619/dracin-app-and
 
 Copyright © 2026 Dracin. All rights reserved.
 
-Aplikasi ini adalah proprietary software. Source code tidak dipublikasikan, hanya distribusi binary (APK) yang tersedia untuk penggunaan pribadi.
+Aplikasi ini adalah **proprietary software**. Hanya binary releases (APK) yang dipublikasikan. Source code tetap private.
+
+---
+
+## ⚠️ Disclaimer
+
+Aplikasi ini adalah **third-party client** dan **tidak berafiliasi** dengan DramaBox, Melolo, NetShort, atau platform konten lainnya. 
+
+Semua konten (video, gambar, metadata) adalah properti dari pemilik masing-masing platform. Aplikasi ini hanya menyediakan interface alternatif untuk mengakses konten yang sudah tersedia secara publik.
 
 ---
 
 ## 🙏 Credits
 
-Dibuat dengan ❤️ menggunakan Flutter
+Built with ❤️ using **Flutter**
 
-**Disclaimer**: Aplikasi ini adalah third-party client dan tidak berafiliasi dengan DramaBox, ReelShort, atau platform konten lainnya. Semua konten adalah properti dari pemilik masing-masing.
+Backend API: [dracinzek.vercel.app](https://dracinzek.vercel.app)
 
 ---
 
 <div align="center">
 
-**⭐ Star repository ini jika Anda merasa aplikasi ini berguna!**
+**⭐ Star repository ini jika aplikasi ini berguna untuk Anda!**
 
 [Download Latest Release](https://github.com/zexry619/dracin-app-android/releases/latest) • [Report Bug](https://github.com/zexry619/dracin-app-android/issues) • [Request Feature](https://github.com/zexry619/dracin-app-android/issues)
 
