@@ -284,6 +284,11 @@ Backend API: [dracinzek.vercel.app](https://dracinzek.vercel.app)
 
 ## 📦 Release History
 
+### [v1.0.24](./releases/v1.0.24/) - 2026-01-08
+- [Download APK](./releases/v1.0.24/dracin-v1.0.24.apk) (25M)
+- [View Changelog](./releases/v1.0.24/CHANGELOG.md)
+
+
 ### [v1.0.22](./releases/v1.0.22/) - 2026-01-08
 - [Download APK](./releases/v1.0.22/dracin-v1.0.22.apk) (25M)
 - [View Changelog](./releases/v1.0.22/CHANGELOG.md)
